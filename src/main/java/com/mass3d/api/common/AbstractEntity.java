@@ -83,7 +83,7 @@ public class AbstractEntity {
     if (this == o) return true;
     if (o == null || getClass() != o.getClass()) return false;
 
-    var that = (AbstractEntity) o;
+    AbstractEntity that = (AbstractEntity) o;
     if (!Objects.equals(id, that.id)) return false;
     return true;
   }
